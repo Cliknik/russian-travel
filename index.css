@@ -41,4 +41,8 @@
 @import "./blocks/place/__web-site/place__web-site.css";
 @import "./blocks/place/__paragraph/place__paragraph.css";
 
-@import "";
+@import "./blocks/cover/cover.css";
+@import "./blocks/cover/__header";
+@import "./blocks/cover/__background";
+@import "./blocks/cover/__overlay";
+@import "./blocks/cover/__subtitle";
