@@ -39,5 +39,6 @@
 @import "./blocks/place/__text/place__text.css";
 @import "./blocks/place/__url-heading/place__url-heading.css";
 @import "./blocks/place/__web-site/place__web-site.css";
+@import "./blocks/place/__paragraph/place__paragraph.css";
 
 @import "";
