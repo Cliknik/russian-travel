@@ -1,0 +1,4 @@
+.place__web-site {
+  display: flex;
+  flex-direction: column;
+}
