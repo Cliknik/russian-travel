@@ -2,7 +2,6 @@
   margin: 0;
   padding: 97px 48px 0;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(3,213px);
+  grid-template-columns: repeat(auto-fill, minmax(282px,4fr));
   gap: 16px;
 }
