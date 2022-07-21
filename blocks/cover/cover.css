@@ -1,6 +1,9 @@
 .cover {
-  padding: 92px 0 92px;
+  background-image: url(../../images/__background.jpg);
   position: relative;
   max-width: 1184px;
+  min-width: 320px;
   margin: 0 48px;
+  background-repeat: no-repeat;
+  min-height: 720px;
 }
