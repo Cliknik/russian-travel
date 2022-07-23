@@ -6,4 +6,27 @@
   margin: 0 48px;
   background-repeat: no-repeat;
   min-height: 740px;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .cover {
+    min-height: 640px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .cover {
+    margin: 0;
+    min-height: 480px;
+    background-image: url(../../images/__background@0.5.jpg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin: 0;
+    min-height: 200px;
+  }
 }

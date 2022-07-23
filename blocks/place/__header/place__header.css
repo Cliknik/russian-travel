@@ -7,12 +7,6 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
-  .place__header {
-    padding: 0 48px 0 92px;
-  }
-}
-
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .place__header {
     font-size: 42px;
@@ -20,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__header {
     font-size: 32px;
     line-height: 35px;

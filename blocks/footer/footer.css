@@ -2,7 +2,23 @@
   display: flex;
   justify-content: space-between;
   max-width: 1174px;
-  min-width: 320px;
   padding-top: 92px;
   margin: 0 48px 24px;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .footer {
+    padding-top: 88px;
+    margin: 0 24px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 64px;
+    flex-direction: column;
+    margin: 0 0 24px 16px;
+    gap: 48px;
+    box-sizing: border-box;
+  }
 }
