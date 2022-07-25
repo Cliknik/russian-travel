@@ -1,6 +1,6 @@
 .lead {
   padding-top: 56px;
-  padding-bottom: 90px;
+  padding-bottom: 92px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -9,22 +9,21 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .lead {
-    padding-bottom: 95px;
-    padding-left: 48px;
+    padding: 48px 48px 92px;
     margin: 0;
   }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1023px) {
   .lead {
-    padding-bottom: 91px;
+    padding: 48px 0 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .lead {
-    padding-bottom: 68px;
+    padding: 48px 0 64px;
   }
 }
