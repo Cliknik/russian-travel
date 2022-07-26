@@ -8,8 +8,8 @@
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
+@import "../blocks/header/__lang-link/_active/header__lang-link_active.css";
 @import "../blocks/header/__languages/header__languages.css";
-@import "../blocks/header/__lang-link/header__lang-link_active/header__lang-link_active.css";
 
 @import "../blocks/content/content.css";
 
@@ -43,7 +43,6 @@
 
 @import "../blocks/cover/cover.css";
 @import "../blocks/cover/__header/cover__header.css";
-@import "../blocks/cover/__background/cover__background.css";
 @import "../blocks/cover/__overlay/cover__overlay.css";
 @import "../blocks/cover/__subtitle/cover__subtitle.css";
 

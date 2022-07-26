@@ -1,7 +1,0 @@
-.cover__background {
-  position: relative;
-  background-image: url(../../../images/__background.jpg);
-  object-fit: fill;
-  height: 740px;
-  z-index: 0;
-}
